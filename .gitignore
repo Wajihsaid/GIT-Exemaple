@@ -35,4 +35,11 @@ build/
 .vscode/
 
 ### Mac OS ###
-.DS_Store
+.DS_Storebin/
+.settings/
+.classpath
+.project
+bin/
+.settings/
+.classpath
+.project
