@@ -22,5 +22,11 @@ pipeline{
                 sh 'java -cp out org.example.Main'
             }
         }
+         stage('disply message')
+        {
+            steps{
+                echo "hello from github"
+            }
+        }
     }
 }
